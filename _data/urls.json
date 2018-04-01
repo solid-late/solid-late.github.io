@@ -8,11 +8,16 @@
   {
     "text": "About",
     "url": "/about/",
-    "icon": "fa-comments"
+    "icon": "fa-graduation-cap"
   },
   {
     "text": "Categories",
     "url": "/categories/",
-    "icon": "fa-comments"
+    "icon": "fa-asterisk"
+  },
+  {
+    "text": "Github",
+    "url": "/#",
+    "icon": "fa-github"
   }
 ]
