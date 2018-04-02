@@ -30,14 +30,15 @@ Short explenation how to work with the website.
 
 1. Create a new file in the folder *_posts* with the filename format **YYYY-MM-DD-short-description.md**. 
 2. Use the following snippet at the beginning of the file:
-'''
+```
 ---
 layout: post
 title:  "Insert your post title here"
 date:   YYYY-MM-DD
 category: [categroy1, category2]
 ---
-'''
+```
+
 3. Use markdown language to write your entry. A cheatsheet can be found [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ### How to create/change/delete a category
@@ -45,11 +46,11 @@ category: [categroy1, category2]
 1. Create a new file in the folder *category* with the filename format **category-name.md**.
 2. Use the following snippet in the file:
 
-'''
+```
 ---
 layout: posts_by_category
 categories: $category-name
 title: $Title of the category
 permalink: /category/$category-name
 ---
-'''
+```
