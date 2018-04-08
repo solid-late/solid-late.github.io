@@ -220,3 +220,6 @@ footer {
     position: absolute;
     right: 12px;
 }
+.badge-light {
+    background-color: #009587;
+}

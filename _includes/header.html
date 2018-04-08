@@ -40,6 +40,12 @@
                   {% endfor %}
                 </span>
               {% endif %}
+              {% if page.authors.size > 0 %}
+                &raquo; post by: {% for author in page.authors %}
+                  <span class="badge">{{ author }}</span>
+                {% endfor %}
+                </span>
+              {% endif %}
             </p>
           </div>
         </div>
