@@ -36,11 +36,7 @@ Using the Eagle schematic, an SMD board was laid out. We aimed at a very small f
 
 ![Layout version 1](/static/img/example-board/layout_v1.gif)
 
-The milling of the traces, holes and outline went without issues:
-
-```TODO milling video```
-
-After that, we started the hand soldering process. Some mistakes have been made, and a number of issues and difficulties raised, listed below:
+The milling of the traces, holes and outline went without issues. After that, we started the hand soldering process. Some mistakes have been made, and a number of issues and difficulties raised, listed below:
 
 - We forgot to clean the board after milling. Obviously very difficult to solder on an unclean surface.
 - The heatsink valleys on the groundfill of the traces layer were too thin thus they have not been milled out.
