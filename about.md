@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Welcome on the documentation page of the SolidLate team. This is the home of all reports made by the team for the **Principles of digital fabrication** course at the **University of Oulu**, Finland.
+Welcome to the documentation page of the *Solid Late* team. This is the home of all reports made by the team for the **Principles of Digital Fabrication** course at **University of Oulu**, Finland.
 
 The team members are the following:
 
