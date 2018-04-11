@@ -6,6 +6,11 @@
     "layout": "post"
   },
   {
+    "text": "Intro Report",
+    "url": "/intro-report/",
+    "icon": "fa-file"
+  },
+  {
     "text": "About",
     "url": "/about/",
     "icon": "fa-graduation-cap"
