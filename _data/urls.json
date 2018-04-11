@@ -1,8 +1,8 @@
 [
   {
-    "text": "Home",
+    "text": "Weekly",
     "url": "/",
-    "icon": "fa-home",
+    "icon": "fa-calendar",
     "layout": "post"
   },
   {
