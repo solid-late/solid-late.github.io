@@ -1,0 +1,14 @@
+[
+    {
+        "name": "drafts",
+        "icon": "fa-edit"
+    },
+    {
+        "name": "electronics",
+        "icon": "fa-usb"
+    },
+    {
+        "name": "3dmodel",
+        "icon": "fa-cogs"
+    }
+]
