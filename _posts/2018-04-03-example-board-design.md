@@ -55,3 +55,5 @@ The following image was used as a soldering instruction:
 The size of the board v2 is 43x17 mm, which is quite convenient to solder on. After the soldering, we tested the circuit with a DC generator in FabLab. The sensitivity of the board is lower than expected, so the diode only opens when it is exposed to direct light.
 
 ![Working](/static/img/example-board/working.gif)
+
+### [The design source files can be found in the repository](https://github.com/solid-late/photosensor-circuit)
