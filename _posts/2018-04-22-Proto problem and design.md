@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Problem with the prototype manufacturing and further ideas for the design"
+title:  "Problem with the prototype manufacturing and further ideas"
 date:   2018-04-22
 category: 3dmodel
 authors: julia
