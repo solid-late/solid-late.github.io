@@ -23,7 +23,7 @@ Because of these problems it is more appropriate to find a way to create the *pd
 
 ## Further ideas for the design
 
-Also, some other points have to considered related to the 3D model. The place of the light sensor was
+Also, some other points have to be considered related to the 3D model. The place of the light sensor was
 not discussed before. As the LED components are going to be on the surface of the front panel, it makes
 sense to put the light sensor there too. Also the geometry should fit the micro servo motor which has
 the following dimensions: 23 x 12.3 x 25.6 mm. As the final product is going to be assembled from wooden
