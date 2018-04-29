@@ -8,7 +8,7 @@ authors: aleks
 
  The next step is to check the SMD LEDs' multiplexed intensity.
 
-Based on our experience from our previous experiment, which is explained in more detail in [this post](), we wanted to apply the principle to SMD LEDs. We hoped that the LEDs would seem much brighter with this approach.
+Based on our experience from our previous experiment, which is explained in more detail in [this post](https://solid-late.github.io/electronics/2018/04/25/charlieplexing.html), we wanted to apply the principle to SMD LEDs. We hoped that the LEDs would seem much brighter with this approach.
 We created a board with 3 pins and 12 LEDs. We wanted to find out if the connections crossing could be milled clean enough. Furthermore, the elements had to be soldered by hand. The aim was to find out how well this works in terms of charlieplexing, the distribution and the size of the elements.
 
 ## Circuit design
