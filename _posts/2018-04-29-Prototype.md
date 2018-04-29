@@ -5,7 +5,7 @@ date:   2018-04-29
 category: drafts
 authors: greta
 ---
-## First prototype
+## First prototype of the reindeer model
 
 After encountering some [problems](https://solid-late.github.io/3dmodel/2018/04/22/Proto-problem-and-design.html) 
 that kept us from finishing our prototype last week, we finally managed to build our first one! We started by cutting the shape of the reindeer out with the lasercutter.
