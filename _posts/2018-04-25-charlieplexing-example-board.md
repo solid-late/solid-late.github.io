@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example for charlieplexing using 12 LEDs
+title: Prototype of the charlieplexing circuit v2 - SMD 12 LEDs
 date: 2018-04-25
 category: electronics
 authors: aleks
