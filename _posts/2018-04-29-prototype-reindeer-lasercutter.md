@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Prototype"
+title:  "First Prototype of the reindeer model"
 date:   2018-04-29
 category: drafts
 authors: greta
