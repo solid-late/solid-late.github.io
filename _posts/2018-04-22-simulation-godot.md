@@ -2,7 +2,7 @@
 layout: post
 title: Simulating the LEDs pattern with the godot engine
 date: 2018-04-22
-category: [code]
+category: drafts
 authors: aleks
 ---
 
