@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simulating the LEDs pattern with the godot engine
+title: Simulating the LED patterns with the Godot game engine
 date: 2018-04-22
 category: drafts
 authors: aleks

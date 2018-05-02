@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Prototype of the charlieplexing circuit v2 - SMD 12 LEDs
-date: 2018-04-25
+title: Prototype of the charlieplexing circuit v2 - 12 SMD LEDs
+date: 2018-04-25 12:00:00
 category: electronics
 authors: aleks
 ---
 
- The next step is to check the SMD LEDs' multiplexed intensity.
+The next step is to check the SMD LEDs' multiplexed intensity.
 
 Based on our experience from our previous experiment, which is explained in more detail in [this post](https://solid-late.github.io/electronics/2018/04/25/charlieplexing.html), we wanted to apply the principle to SMD LEDs. We hoped that the LEDs would seem much brighter with this approach.
-We created a board with 3 pins and 12 LEDs. We wanted to find out if the connections crossing could be milled clean enough. Furthermore, the elements had to be soldered by hand. The aim was to find out how well this works in terms of charlieplexing, the distribution and the size of the elements.
+We created a board with 3 pins and 12 LEDs. In addition, we wanted to find out whether it is possible to mill and hand-solder a board with very dense component placement.
 
 ## Circuit design
 ![charlieplexing circuit with 4 pins](/static/img/charlieplexing/charlieplexing_circuit_4pin.jpg)
@@ -27,8 +27,8 @@ Soldering instructions:
 ## Board production and soldering
 
 The production worked fine.
-We used 6 orange and 6 blue LEDs on the board assemblied in a row. 
-Except only one connection to a LED the soldering went without any problems. The connection could be easily repared by using slighly more solder.
+We used 6 orange and 6 blue LEDs on the board assembled in a row. 
+Except only one connection to a LED the soldering went without any problems. The connection could be easily repaired using slightly more solder.
 
 ![boards 12 LEDs soldering](/static/img/charlieplexing/board-12LEDs.jpg)
 
