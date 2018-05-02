@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: 3dmodel
-title: 3D model
-permalink: /category/3D model/
+title: 3dmodel
+permalink: /category/3dmodel/
 ---
