@@ -3,6 +3,7 @@ layout: post
 title:  "Design and production of the light sensor circuit"
 date:   2018-04-03
 category: electronics
+permalink: /example-board/
 authors: lorinc
 ---
 As a course requirement, we needed to produce a printed circuit board at FabLab. We chose to create something what is going to be useful for our product later: a light sensor board. This board can be attached to at a yet undecided place on the final product to measure the ambient light intensity.
