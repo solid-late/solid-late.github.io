@@ -30,7 +30,18 @@ Electronic components
 ---------------------
 
 ### Bill of Materials
-**TODO lorinc**
+The following table lists the exact number of electronic components used in the product:
+
+{:.table}
+| idx | part name                    | qty. | supplier | catalog no.           | in list? |
+|-----|------------------------------|------|----------|-----------------------|----------|
+| 1   | Arduino Uno                  | 1    | DigiKey  | 1050-1024-ND          | yes      |
+| 2   | Resistor 100 Ohm             | 8    | DigiKey  | 311-100FRCT-ND        | yes      |
+| 3   | Orange LED                   | 10   |          |                       | no       |
+| 4   | Blue LED                     | 10   |          |                       | no       |
+| 5   | Micro servo motor            | 1    | Jameco   | 2214601               | yes      |
+| 6   | 2.54 header pins             | 12   |          |                       | no       |
+| 7   | Phototransistor              | 1    | DigiKey  | 1080-1380-1-ND        | yes      |
 
 ### Ambient light intensity sensor
 **TODO lorinc**
