@@ -13,7 +13,18 @@ authors:
 The final concept
 =================
 
-We build a wooden reindeer with 20 orange and blue LEDs visible on it's body. The LEDs are controlled by an Arduino controller using multiplexing and are activated by an ambient light sensor. The electronic board ist visible on the body and has a form that matches parts of the reindeer shape. Additionally, a micro servo motor is be used to move the head around.
+During the project we build a wooden reindeer with a movable neck and blinking LEDs on it's body that are controlled by an ambient light sensor.
+
+## Final concept 
+Our final model consists of the follwing parts:
+* 20 orange and blue LEDs visible on the reindeer's body
+* An Arduino controller to control the LEDs using multiplexing 
+* An ambient light sensor to activate the LEDs
+* An electronic board that is visible on the body and has a form that matches parts of the reindeer shape
+* A micro servo motor to move the head around.
+
+## How we arrived at the concept
+We first agreed to build something with LEDs and multiplexing. After discussing several design forms we determined to build our gadget in the form of a reindeer to give it a form associated with the finnish culture. Furthermore we decided to build it out of wood to give it a natural look. The electronic board has a round shape to enhance the organic look.
 
 Elements of the product
 ====================
