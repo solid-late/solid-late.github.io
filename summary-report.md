@@ -13,18 +13,25 @@ authors:
 The final concept
 =================
 
-During the project we build a wooden reindeer with a movable neck and blinking LEDs on it's body that are controlled by an ambient light sensor.
+Our end result is a reindeer made of wood which glows orange-blue. The LEDs can blink in different patterns and are depending on the light in the surroundings. The head is movable which gives the animal a curious look. 
 
-## Final model 
-Our final model consists of the follwing parts:
-* 20 orange and blue LEDs visible on the reindeer's body
-* An Arduino controller to control the LEDs using multiplexing 
-* An ambient light sensor to activate the LEDs
-* An electronic board that is visible on the body and has a form that matches parts of the reindeer shape
-* A micro servo motor to move the head around
+## Parts list 
+Our final model consists of the following parts:
+* 16 orange and blue LEDs, visible on the reindeer's body
+* Arduino Uno, to control the LEDs using multiplexing based on the light sensor 
+* ambient light sensor, to activate the LEDs
+* self produced copper curcuit board, that is visible on the body and which form matches the reindeer shape
+* micro servo motor, to rotate the head left and right
 
 ## How we arrived at the concept
-We first agreed to build something with LEDs and multiplexing. After discussing several design forms we determined to build our gadget in the form of a reindeer to give it a form associated with the finnish culture. Furthermore we decided to build it out of wood to give it a natural look. The electronic board has a round shape to enhance the organic look.
+**The first ideas** were based on ambient light and could be understood as a piece of furniture or decoration. From the very beginning, we have preferred wood for its naturalness. After collecting some of the ideas we decided to stick to the reindeer form, which reminded us of our stay in Finland. The sketches and detailed progress of our idea finding progress can be looked up in the [*drafts* category](https://solid-late.github.io/categories/).
+
+![reindeer-draft](/static/img/drafts/03-22-2018-reindeer.png)
+
+
+
+**In the second step** we divided up the work and tried to work as parallel as possible. One team worked on the reindeer shape and moving head, the second one created the cuircuit board and programmed the LEDs. The instructions provided in the internet by FabLab and the friendly support of the staff helped us a lot in using the laser cutter and milling machine to reach our goal. Both teams exchanged their progress often because we stumpled over some problems on both sides and the reindeer and curcuit board design were subject of some changes.   
+
 
 Elements of the product
 ====================
@@ -56,8 +63,8 @@ The following table lists the exact number of electronic components used in the 
 |-----|------------------------------|------|----------|-----------------------|----------|
 | 1   | Arduino Uno                  | 1    | DigiKey  | 1050-1024-ND          | yes      |
 | 2   | Resistor 100 Ohm             | 8    | DigiKey  | 311-100FRCT-ND        | yes      |
-| 3   | Orange LED                   | 10   |          |                       | no       |
-| 4   | Blue LED                     | 10   |          |                       | no       |
+| 3   | Orange LED                   | 8   |          |                       | no       |
+| 4   | Blue LED                     | 8   |          |                       | no       |
 | 5   | Micro servo motor            | 1    | Jameco   | 2214601               | yes      |
 | 6   | 2.54 header pins             | 12   |          |                       | no       |
 | 7   | Phototransistor              | 1    | DigiKey  | 1080-1380-1-ND        | yes      |
@@ -86,18 +93,24 @@ Software
 --------
 
 ### Jekyll documentation site
-For the documentation we used the github webpage assigned to our project. We used [jekyll](https://jekyllrb.com/) to generate the website and chose a fitting template.
-Everyone contributed our progress on the page as soon as there were any changes made.
+For the documentation we used the github webpage assigned to our project. We used [jekyll](https://jekyllrb.com/) to generate the website and chose a fitting template. To make it easier to get started with blog posting, Aleks created a short readme. 
+The website reflects our thoughts and work processes and can be understood as a diary.
 
 ### Lighting pattern simulation
-**TODO aleks**
+While the reindeer shape was being designed and in production Aleks created a simulation to come up with some ideas for the LED patterns. The attempt to create the simulation with PythonQt and Kivy were abandoned due to the time required and as a solution the Godot Engine came in handy. [Godot](https://godotengine.org/) is an open source game engine using its own scripting language [GDScript](https://godot.readthedocs.io/en/3.0/getting_started/scripting/gdscript/gdscript_basics.html#doc-gdscript) which fortunatelly reminds of Python. This and the examples on the internet made the work quite easy. Also the IDE is suitable for all distributions and worked very well. 
+
+Originally the reindeer should consist of 10 red and 10 white LEDs, based on these the simulation has only these colors. Eight different patterns were created to run on the Arduino in the future and to get an idea what would look nice. The LEDs were later replaced by SMD ones because of the low brightness in a revision of the reindeer design. 
+
+
+![godot-reindeer](/static/img/godot-reindeer/godot_reindeer.gif)
+
 
 ### Arduino code
-The software running on the Arduino is quite straightforward, no external libraries were used. There is two non-trivial spots that worth to be pointed out:
+The software running on the Arduino is quite straightforward, no external libraries were used. There are two non-trivial spots that are worth to be pointed out:
 
-- The first, naive implementation for the charlieplexing featured a 1 ms delay command after checking on every LED, even if the LED was turned off. For example: if the pattern ordered to switch between a 2 diodes, each of them being lit 1-1 ms during the whole cycle, and nothing being turned on for `n-2` milliseconds. In a later implementation this has been changed, and with the use of a timer, there's no empty time segments anymore.
+- The first, naive implementation for the charlieplexing featured a 1 ms delay command after checking on every LED, even if the LED was turned off. For example: if the pattern ordered to switch between 2 diodes, each of them being lit 1-1 ms during the whole cycle, and nothing being turned on for `n-2` milliseconds. In a later implementation this has been changed, and with the use of a timer, there are no empty time segments anymore.
 
-- Unfortunately, the final board has been manufactured that the digital pin #6 controls the servo by PWM. As it turned out, this pin (along with pin #5) uses double the frequency as the others, which is too high for the servo. With some googling and hacking, the frequency could be changed, but it also affects the delay functions of the microcontroller.
+- Unfortunately, the final board has been manufactured so that the digital pin #6 controls the servo by PWM. As it turned out, this pin (along with pin #5) uses double the frequency as the others, which is too high for the servo. With some googling and hacking, the frequency could be changed, but it also affects the delay functions of the microcontroller.
 
 Sources
 =======
@@ -115,14 +128,24 @@ Sources
 
 - [Arduino source code files](https://github.com/solid-late/reindeer-code)
 
+- [Godot - reindeer LED pattern simulation](https://github.com/solid-late/godot_reindeerLED)
+
 ### Mechanical design files
 
 **TODO julia**
 
-Personal reflection
+Lessons learned
 ===================
 
-- aleks: **TODO aleks**
-- greta: **TODO greta**
-- julia: **TODO julia**
-- lorinc: **TODO lorinc**
+TODO!: delete later, it's just a help
+- What lessons (skills, knowledge, practices) have you learned?
+- What recommendations would you give to others doing a similar project?
+- What ideas you got for future work or study?
+
+{:.table}
+| member | knowledge brought in | new stuff learned/improved | recommendations | future interests |
+|-----|------------------------------|------|----------|-----------------------|----------|
+| **aleks**   | diverse programming skills, soldering, microcontrollers, circuits (basics) | jekyll, board design (Eagle) and cutting, Godot, Arduino Uno | good commits on GitHub, show own initiative  | board design          |
+| **greta**   | x             | x    | x  | x        |
+| **julia**   | x                   | x   |          |                       |
+| **lorinc**   | x                     | x   |          |                       |
