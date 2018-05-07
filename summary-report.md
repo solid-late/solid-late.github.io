@@ -80,12 +80,31 @@ Software
 **TODO aleks**
 
 ### Arduino code
-**TODO lorinc**
+The software running on the Arduino is quite straightforward, no external libraries were used. There is two non-trivial spots that worth to be pointed out:
+
+- The first, naive implementation for the charlieplexing featured a 1 ms delay command after checking on every LED, even if the LED was turned off. For example: if the pattern ordered to switch between a 2 diodes, each of them being lit 1-1 ms during the whole cycle, and nothing being turned on for `n-2` milliseconds. In a later implementation this has been changed, and with the use of a timer, there's no empty time segments anymore.
+
+- Unfortunately, the final board has been manufactured that the digital pin #6 controls the servo by PWM. As it turned out, this pin (along with pin #5) uses double the frequency as the others, which is too high for the servo. With some googling and hacking, the frequency could be changed, but it also affects the delay functions of the microcontroller.
 
 Sources
 =======
 
-**TODO lorinc** list and name all repositories and the presentation file
+### Jekyll
+
+- [Webpage created with Jekyll, hosted on GitHub](https://github.com/solid-late/solid-late.github.io "SolidLate on GitHub")
+
+### Electronics design
+
+- [The source files of the example phototransistor circuit](https://github.com/solid-late/photosensor-circuit)
+- [The source files of the main circuit](https://github.com/solid-late/circuit-main)
+
+### Reindeer Code
+
+- [Arduino source code files](https://github.com/solid-late/reindeer-code)
+
+### Mechanical design files
+
+**TODO julia**
 
 Personal reflection
 ===================
