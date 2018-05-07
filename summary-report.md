@@ -43,7 +43,8 @@ Software
 --------
 
 ### Jekyll documentation site
-**TODO greta**
+For the documentation we used the github webpage assigned to our project. We used [jekyll](https://jekyllrb.com/) to generate the website and chose a fitting template.
+Everyone contributed our progress on the page as soon as there were any changes made.
 
 ### Lighting pattern simulation
 **TODO aleks**
