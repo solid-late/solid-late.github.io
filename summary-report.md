@@ -53,8 +53,22 @@ The following table lists the exact number of electronic components used in the 
 ### Ambient light intensity sensor
 The light intensity sensor serves as a general on/off switch for the product electronics. Thus it does not have to provide precise measurements. This is achieved by a common emitter phototransistor circuit. The design of this circuit was performed in 3 steps: [two standalone boards](/example-board/) were created for testing purposes, and the final circuit is placed on the main board of the end product.
 
-### LED charlieplexing
-**TODO lorinc**
+![Phototransistor circuit](/static/img/example-board/schematic.gif)
+
+### LED Charlieplexing
+We lit the LEDs on the circuit board with the charlieplexing method. This is similar to multiplexing as it also aims for driving a number of LEDs using a small number of microcontroller pins. The following differences can be stated:
+
+Advantages of charlieplexing:
+- No need for additional ICs, such as FETs or shift register
+- The number of LEDs driven is `O(n^2)` of the used microcontroller GPIO pins. The exact number is `n*(n-1)`
+
+Disadvantages of charlieplexing:
+- At a given moment, only one of the LEDs is turned on which leads to lower perceived intensity when switching between a number of LEDs
+- The current flowing through the LEDs is limited by the microcontroller technology. In the case of the Arduino, it is `10 mA`
+
+An additional problem raised with the layout designs: the charlieplexing method requires a lot of traces connecting the pins and the LEDs. It was difficult to arrange them on a single sided PCB. The automatic wiring algorithm of *EAGLE* was to good use. At first we planned to place 20 diodes on the board, but it didn't seem to be feasible, so the number has been decreased to 16.
+
+![Charlieplexing circuit](/static/img/charlieplexing/charlieplexing_circuit_4pin.jpg)
 
 Software
 --------
