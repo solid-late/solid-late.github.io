@@ -21,7 +21,7 @@ Our final model consists of the follwing parts:
 * An Arduino controller to control the LEDs using multiplexing 
 * An ambient light sensor to activate the LEDs
 * An electronic board that is visible on the body and has a form that matches parts of the reindeer shape
-* A micro servo motor to move the head around.
+* A micro servo motor to move the head around
 
 ## How we arrived at the concept
 We first agreed to build something with LEDs and multiplexing. After discussing several design forms we determined to build our gadget in the form of a reindeer to give it a form associated with the finnish culture. Furthermore we decided to build it out of wood to give it a natural look. The electronic board has a round shape to enhance the organic look.
