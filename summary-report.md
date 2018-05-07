@@ -12,7 +12,8 @@ authors:
 
 The final concept
 =================
-**TODO greta**
+
+We build a wooden reindeer with 20 orange and blue LEDs visible on it's body. The LEDs are controlled by an Arduino controller using multiplexing and are activated by an ambient light sensor. The electronic board ist visible on the body and has a form that matches parts of the reindeer shape. Additionally, a micro servo motor is be used to move the head around.
 
 Elements of the product
 ====================
