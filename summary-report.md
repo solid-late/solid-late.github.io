@@ -15,7 +15,7 @@ The final concept
 
 During the project we build a wooden reindeer with a movable neck and blinking LEDs on it's body that are controlled by an ambient light sensor.
 
-## Final concept 
+## Final model 
 Our final model consists of the follwing parts:
 * 20 orange and blue LEDs visible on the reindeer's body
 * An Arduino controller to control the LEDs using multiplexing 
