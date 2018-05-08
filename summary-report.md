@@ -146,6 +146,6 @@ TODO!: delete later, it's just a help
 | member | knowledge brought in | new stuff learned/improved | recommendations | future interests |
 |-----|------------------------------|------|----------|-----------------------|----------|
 | **aleks**   | diverse programming skills, soldering, microcontrollers, circuits (basics) | jekyll, board design (Eagle) and cutting, Godot, Arduino Uno | good commits on GitHub, show own initiative  | board design          |
-| **TODO greta**   | x             | x    | x  | x        |
+| **greta**   | Inkscape, github, sketching| documentation, jekyll, inkscape, operate fablab machines (lasercutter), design process (prototyping)  | start soon, consider that not everything will work directly   | Arduino programming        |
 | **TODO julia**   | x                   | x   | x         | x                      |
 | **lorinc**   | embedded hardware/software, circuit design, mechatronics | fabrication approaches, management | better inter-college management | practical opportunities in digital fabrication |
