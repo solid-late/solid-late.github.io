@@ -16,6 +16,11 @@
     "icon": "fa-file"
   },
   {
+    "text": "Summary",
+    "url": "/summary-report/",
+    "icon": "fa-file-text"
+  },
+  {
     "text": "About",
     "url": "/about/",
     "icon": "fa-graduation-cap"
