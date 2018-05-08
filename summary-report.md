@@ -38,12 +38,31 @@ Elements of the product
 
 Mechanical components
 ---------------------
+Our aim was to give our product a reindeer shaped geometry. As we agreed on using wood as the material of the product the manufacturing method was laser cutting of FMD sheets of 3 mm thickness. This method set some limitations on the geometry as it is only able to cut 2D drawings out of sheets, so the final 3D model was realized by the extrusion of a 2D sketch. For modelling we used Fusion 360.  
+
+First we manufactured the shape of the front panel to check if it fits all the electronic components. We decided that the geometry should be slightly bigger, so we would reach the electronic components easily and it will be easier to assemble the product.  
+
+The second prototype was an assembly of wooden sheets and it was fixed by some overlapping parts. We noticed that on of the components does not fit because the size of it was uncorrect. In this model the place of the servo motor was in the bottom part of the neck and we agreed on changing it and putting it in the top part of the neck, so this way no rods should be attached to the gear to forward the torque to the rotating head.
+
+In the third prototype all the changes were implemented so we attached servo motor to the top part of the neck. After the assembly was done we wanted to insert the customized shaped PCB and we realized that we did the assembly with the wrong direction, so the PCB did not fit the cut on the front panel.
+
+For the fourth prototype we reproduced the same parts as for the third prototype and we did the assembly with the right direction. We reused the head from the third prototype so we haven’t had to laser cut it again. This prototype fit all the requirements so it is the final version of the prototype.
+
+![prototype](/static/img/3dmodel/product.jpg)
+
+The sketches which were used for the laser cutting:
+
+![sketch](/static/img/3dmodel/lasercut.JPG)
 
 ### Frame
-**TODO julia**
+
+The standing part consist of 37 parts and it provides room for the Arduino, PCB and cables. The dimensions of the box are 110x70x40mm. 
 
 ### Moving component
-**TODO julia**
+
+The moving part of the model is the head which rotates around the neck. The servo motor which provides the rotating motion was fixed on the top of the neck and the gear was attached to the bottom part of the head with glue and a screw. The consist of 20 parts. 
+
+![servo](/static/img/3dmodel/servo.jpg) ![gear](/static/img/3dmodel/gear.jpg)
 
 Electronic components
 ---------------------
