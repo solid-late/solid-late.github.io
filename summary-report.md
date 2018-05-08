@@ -30,7 +30,7 @@ Our final model consists of the following parts:
 
 
 
-**In the second step** we divided up the work and tried to work as parallel as possible. One team worked on the reindeer shape and moving head, the second one created the cuircuit board and programmed the LEDs. The instructions provided in the internet by FabLab and the friendly support of the staff helped us a lot in using the laser cutter and milling machine to reach our goal. Both teams exchanged their progress often because we stumpled over some problems on both sides and the reindeer and curcuit board design were subject of some changes.   
+**In the second step** we divided up the work and tried to work as parallel as possible. One team worked on the reindeer shape and moving head, the second one created the circuit board and programmed the LEDs. The instructions provided in the internet by FabLab and the friendly support of the staff helped us a lot in using the laser cutter and milling machine to reach our goal. Both teams exchanged their progress often because we stumbled over some problems on both sides and the reindeer and circuit board design were subject of some changes.   
 
 
 Elements of the product
@@ -135,7 +135,7 @@ Sources
 **TODO julia**
 
 Lessons learned
-===================
+===============
 
 TODO!: delete later, it's just a help
 - What lessons (skills, knowledge, practices) have you learned?
@@ -146,6 +146,6 @@ TODO!: delete later, it's just a help
 | member | knowledge brought in | new stuff learned/improved | recommendations | future interests |
 |-----|------------------------------|------|----------|-----------------------|----------|
 | **aleks**   | diverse programming skills, soldering, microcontrollers, circuits (basics) | jekyll, board design (Eagle) and cutting, Godot, Arduino Uno | good commits on GitHub, show own initiative  | board design          |
-| **greta**   | x             | x    | x  | x        |
-| **julia**   | x                   | x   |          |                       |
-| **lorinc**   | x                     | x   |          |                       |
+| **TODO greta**   | x             | x    | x  | x        |
+| **TODO julia**   | x                   | x   | x         | x                      |
+| **lorinc**   | embedded hardware/software, circuit design, mechatronics | fabrication approaches, management | better inter-college management | practical opportunities in digital fabrication |
