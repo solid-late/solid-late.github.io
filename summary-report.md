@@ -151,7 +151,7 @@ Sources
 
 ### Mechanical design files
 
-**TODO julia**
+- [2D sketches](/static/img/3dmodel/final.pdf)
 
 Lessons learned
 ===============
@@ -166,5 +166,5 @@ TODO!: delete later, it's just a help
 |-----|------------------------------|------|----------|-----------------------|----------|
 | **aleks**   | diverse programming skills, soldering, microcontrollers, circuits (basics) | jekyll, board design (Eagle) and cutting, Godot, Arduino Uno | good commits on GitHub, show own initiative  | board design          |
 | **greta**   | Inkscape, github, sketching| documentation, jekyll, inkscape, operate fablab machines (lasercutter), design process (prototyping)  | start soon, consider that not everything will work directly   | Arduino programming        |
-| **TODO julia**   | x                   | x   | x         | x                      |
+| **julia**   |3D  modeling  | manufacturing   | try to do the first prototypes asap     | circuit design                      |
 | **lorinc**   | embedded hardware/software, circuit design, mechatronics | fabrication approaches, management | better inter-college management | practical opportunities in digital fabrication |
