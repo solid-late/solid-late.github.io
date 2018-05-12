@@ -156,11 +156,6 @@ Sources
 Lessons learned
 ===============
 
-TODO!: delete later, it's just a help
-- What lessons (skills, knowledge, practices) have you learned?
-- What recommendations would you give to others doing a similar project?
-- What ideas you got for future work or study?
-
 {:.table}
 | member | knowledge brought in | new stuff learned/improved | recommendations | future interests |
 |-----|------------------------------|------|----------|-----------------------|----------|
